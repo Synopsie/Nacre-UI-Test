@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 namespace test;
 
+use nacre\NacreUI;
 use pocketmine\plugin\PluginBase;
 use test\commands\FormCommand;
 use test\commands\GuiCommand;
@@ -16,6 +17,7 @@ class Main extends PluginBase {
             new FormCommand(),
             new GuiCommand()
         ]);
+        NacreUI::register($this);
     }
 
 }

@@ -14,7 +14,7 @@ use pocketmine\permission\DefaultPermissionNames;
 use pocketmine\player\Player;
 
 class GuiCommand extends Command {
-
+    
     public function __construct() {
         parent::__construct(
             'gui',
@@ -33,7 +33,6 @@ class GuiCommand extends Command {
         }
 
         $menu = new ChestMenu(
-            $sender,
             'Test',
             true,
             [
