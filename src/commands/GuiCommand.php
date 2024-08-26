@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace test\commands;
 
 use nacre\gui\class\ChestMenu;
+use nacre\gui\class\DoubleChestMenu;
 use nacre\gui\InventoryContent;
 use nacre\gui\transaction\MenuTransaction;
 use nacre\gui\transaction\MenuTransactionResult;
@@ -32,7 +33,7 @@ class GuiCommand extends Command {
             return;
         }
 
-        $menu = new ChestMenu(
+        $menu = new DoubleChestMenu(
             'Test',
             true,
             [
