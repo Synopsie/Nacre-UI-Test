@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "723202b275c48cf407786d44496223f7",
+    "packages": [
+        {
+            "name": "synopsie/nacre-ui",
+            "version": "v4.0.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Synopsie/Nacre-UI.git",
+                "reference": "64ef4bb1c40573a3029e602eb3ef7b5e68bee580"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Synopsie/Nacre-UI/zipball/64ef4bb1c40573a3029e602eb3ef7b5e68bee580",
+                "reference": "64ef4bb1c40573a3029e602eb3ef7b5e68bee580",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.49",
+                "pocketmine/pocketmine-mp": "^5.11"
+            },
+            "type": "library",
+            "extra": {
+                "virion": {
+                    "spec": "3.0",
+                    "namespace-root": "nacre"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "nacre\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dumont-Julien",
+                    "email": "dumontj357@gmail.com"
+                }
+            ],
+            "description": "Nacre-UI est une API destiné aux formulaires, elle permet aux développeurs d'avoir une compatibilité entre toutes les interfaces, mais aussi éviter les taches fastidieuses à faire.",
+            "support": {
+                "issues": "https://github.com/Synopsie/Nacre-UI/issues",
+                "source": "https://github.com/Synopsie/Nacre-UI/tree/v4.0.0"
+            },
+            "time": "2024-08-26T08:53:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "synopsie/nacre-ui": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.1"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

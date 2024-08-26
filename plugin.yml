@@ -4,4 +4,3 @@ main: test\Main
 src-namespace-prefix: test
 api: 5.0.0
 author: Julien
-depend: [Nacre-UI]

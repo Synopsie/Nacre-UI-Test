@@ -3,7 +3,6 @@ declare(strict_types=1);
 
 namespace test\commands;
 
-use nacre\gui\class\ChestMenu;
 use nacre\gui\class\DoubleChestMenu;
 use nacre\gui\InventoryContent;
 use nacre\gui\transaction\MenuTransaction;
